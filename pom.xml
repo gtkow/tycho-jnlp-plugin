@@ -75,6 +75,9 @@
           <cloneProjectsTo>target/it</cloneProjectsTo>
           <localRepositoryPath>target/local-repo</localRepositoryPath>
           <postBuildHookScript>verify.bsh</postBuildHookScript>
+          <properties>
+	  	      <jarsigner.alias>KEY_ALIAS</jarsigner.alias>
+          </properties>
         </configuration>
         <executions>
           <execution>
